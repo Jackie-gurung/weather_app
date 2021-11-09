@@ -5,8 +5,6 @@ const getWeather = require('./utils/forecast');
 
 const args = process.argv[2];
 
-console.log(args)
-
 if(args){
     geocode(`${args}`, (error,  data) => {
 
