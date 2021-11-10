@@ -40,6 +40,22 @@ app.get('/help', (req,res) =>{
     })
 })
 
+app.get('/help/*',(req,res) => {
+    res.render('404',{
+        title: '404',
+        name:'Jackie Lhowa',
+        errorMsg : "Help article not found"
+    })
+})
+
+app.get('*',(req,res) => {
+    res.render('404',{
+        title: '404',
+        name:'Jackie Lhowa',
+        errorMsg : "404 | PAGE NOT FOUND"
+    })
+})
+
 // app.get('/weather', (req,res) => {
 //     res.send("Weather page")
 // })
