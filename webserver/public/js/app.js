@@ -1,0 +1,1 @@
+console.log("Fontend js file loaded")
