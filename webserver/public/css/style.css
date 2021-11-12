@@ -39,3 +39,16 @@ header a {
 .potrait{
     max-width: 250px;
 }
+
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #d11d1d;
+    background: #d11d1d;
+    color: #fff;
+    padding: 8px;
+}
